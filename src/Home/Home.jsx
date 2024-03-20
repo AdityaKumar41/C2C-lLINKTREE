@@ -14,10 +14,10 @@ import fivthImg from '../image/five-image.png'
 import './Home.css'
 const Home = () => {
   const info = {
-    mailLink: "https://www.campustocrypto.com",
-    twitLink:"https://www.campustocrypto.com",
-    instaLink: "https://www.campustocrypto.com",
-    YtubeLink: "https://www.campustocrypto.com"
+    mailLink: "mailto:campustocrypto@gmail.com",
+    twitLink:"https://twitter.com/campustocrypto",
+    instaLink: "https://www.instagram.com/campustocrypto/",
+    YtubeLink: "https://www.youtube.com/@CampustoCrypto"
   }
   const linkTree = [
     {
@@ -26,24 +26,24 @@ const Home = () => {
       text: "Join our community"
     },
     {
-      link: 'https://www.campustocrypto.com',
+      link: 'https://discord.com/invite/TGWAnKChDq',
       img: secondImg,
       text: "Discord Server"
     },
     {
-      link: 'https://www.campustocrypto.com',
+      link: 'https://www.youtube.com/watch?v=9mbMzCRhuzs',
       img: thridImg,
       text: "Latest YouTube Video"
     },
     {
-      link: 'https://www.campustocrypto.com',
+      link: 'https://www.linkedin.com/company/campustocrypto/',
       img: fourthImg,
       text: "LinkedIn Profile"
     },
     {
-      link: 'https://www.campustocrypto.com',
+      link: 'https://medium.com/@campustocrypto',
       img: fivthImg,
-      text:"Latest Post on Medium"
+      text:"Visit on Medium"
 
     }
   ]

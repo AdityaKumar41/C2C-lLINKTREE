@@ -43,7 +43,7 @@ const Header = () => {
               <img src={bell} alt="" />
             </div>
             <div className={`notification-box ${showNotification ? 'show' : 'hidden'}`}>
-              <a href="#">No notifications</a>
+              <a href="/">No notifications</a>
             </div>
           </div>
         </nav>
