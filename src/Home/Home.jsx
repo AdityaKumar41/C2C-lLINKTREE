@@ -21,7 +21,7 @@ const Home = () => {
   }
   const linkTree = [
     {
-      link: 'https://www.campustocrypto.com',
+      link: 'https://www.campustocrypto.com/Community',
       img: firstImg,
       text: "Join our community"
     },
