@@ -35,7 +35,7 @@ const Header = () => {
                 <img src={more} alt="" />
               </div>
               <div className={`more-box ${showmore ? 'show' : 'hidden'}`}>
-              <a href="#">Email us</a>
+              <a href="mailto:campustocrypto@gmail.com">Email us</a>
             </div>
           </div>
           <div>
