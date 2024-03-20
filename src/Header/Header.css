@@ -1,0 +1,64 @@
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem;
+}
+.notification-box {
+  color: white;
+  position: absolute;
+  right: 0rem;
+  background-color: #545454;
+  width: 12rem;
+  border-radius: 0.5rem;
+  height: 2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out; /* Use opacity transition */
+  
+}
+
+.notification-box.show {
+  opacity: 1; /* Transition to opacity 1 */
+}
+
+.more-box {
+  color: white;
+  position: absolute;
+  left: 0rem;
+  background-color: #545454;
+  width: 12rem;
+  border-radius: 0.5rem;
+  height: 2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.3s ease; /* Use opacity transition */
+   /* Start with opacity 0 */
+}
+
+.more-box.show {
+  opacity: 1; /* Transition to opacity 1 */
+}
+
+.notification-box a, .more-box a {
+  text-decoration: none;
+  color: white;
+}
+
+.right-notification, .left-more {
+  cursor: pointer;
+}
+
+.hidden a{
+  display: none;
+}
+@media screen and (max-width:600px) {
+  .notification-box,.more-box{
+    width: 40vw;
+    font-size: 0.8rem;
+  }
+}
+

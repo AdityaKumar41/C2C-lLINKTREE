@@ -1,0 +1,18 @@
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.footer a{
+  text-align: center;
+  /* text-decoration: none; */
+  font-weight: 500;
+  font-size: var(--font-size-footer);
+  color: var(--font-color-footer);
+}
+.hand-img{
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
