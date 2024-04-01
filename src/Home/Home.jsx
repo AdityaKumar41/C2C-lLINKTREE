@@ -21,7 +21,7 @@ const Home = () => {
   }
   const linkTree = [
     {
-      link: 'https://www.campustocrypto.com/Community',
+      link: 'https://campustocrypto.com/Community',
       img: firstImg,
       text: "Join our community"
     },
@@ -31,7 +31,7 @@ const Home = () => {
       text: "Discord Server"
     },
     {
-      link: 'https://www.youtube.com/watch?v=9mbMzCRhuzs',
+      link: 'https://youtu.be/aDVOfEAw4OQ?si=GQnwzrmOpPXy8kBM',
       img: thridImg,
       text: "Latest YouTube Video"
     },
